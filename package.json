@@ -1,0 +1,25 @@
+{
+  "name": "gnuradio-node",
+  "version": "0.0.1",
+  "description": "Gnuradio tools with UDP server listening for gnuradio stuff. Observables are used for event passing",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc -p . && mocha",
+    "start": "tsc -p . && node index.js"
+  },
+  "author": "Amer Zavlan",
+  "license": "ISC",
+  "dependencies": {
+    "@types/core-js": "^0.9.37",
+    "@types/node": "^7.0.8",
+    "@types/should": "^8.1.30",
+    "@types/zeromq": "^4.6.1",
+    "binary-parser": "^1.1.5",
+    "ml-kmeans": "^3.0.0",
+    "mocha": "^3.2.0",
+    "mocha-typescript": "^1.0.23",
+    "rxjs": "^5.2.0",
+    "should": "^11.2.1",
+    "zeromq": "^4.6.0",
+  }
+}
